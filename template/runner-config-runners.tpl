@@ -59,9 +59,8 @@
 %{ endif }
 ${docker_machine_options}
     ]
-
     ${off_peak_timezone}
     ${off_peak_idle_count}
     ${off_peak_idle_time}
     ${off_peak_periods_string}
-${runners_machine_autoscaling}
+${machine_autoscaling}

@@ -118,9 +118,9 @@ locals {
     idle_count                = var.runners_idle_count
     idle_time                 = var.runners_idle_time
     max_builds                = local.runners_max_builds_string
-    off_peak_timezone         = var.runners_off_peak_timezone
-    off_peak_idle_count       = var.runners_off_peak_idle_count
-    off_peak_idle_time        = var.runners_off_peak_idle_time
+    off_peak_timezone         = local.runners_off_peak_timezone
+    off_peak_idle_count       = local.runners_off_peak_idle_count
+    off_peak_idle_time        = local.runners_off_peak_idle_time
     off_peak_periods_string   = local.runners_off_peak_periods_string
     root_size                 = var.runners_root_size
     iam_instance_profile_name = var.runners_iam_instance_profile_name
